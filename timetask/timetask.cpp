@@ -22,6 +22,17 @@ int check2()
     }
 }
 
+int check3()
+{
+    int temp1 = sizeof(hours);
+    printf("\n%d\n", temp1);
+
+    if (temp1 > 4)
+    {
+        printf("яблоки в бульоне");
+        _Exit(0);
+    } 
+}
 
 int main()
 {   
@@ -30,6 +41,7 @@ int main()
     printf("\nГодин:");
     scanf_s("%d", &hours);  
     check1();
+    check3();
     printf("Хвилинн:");
     scanf_s("%d", &minutes);
     check2();
