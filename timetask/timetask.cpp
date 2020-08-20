@@ -5,9 +5,10 @@
 
 int hours, minutes;
 
-void check1()
+int check1()
 {
-    if (hours > 24 || hours < 0 || hours == NULL) {
+    if (hours > 24 || hours < 0 || hours == NULL) 
+    {
        printf("ERROR");
        _Exit(0);
     }
