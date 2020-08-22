@@ -1,8 +1,7 @@
 ﻿#include <stdio.h>
 #include <clocale>
-#include <stdlib.h>
 #include "prov.h"
-#define global const char  h, m;
+#include <stdlib.h>
 
 
 void check1()
