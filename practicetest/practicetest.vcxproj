@@ -149,6 +149,9 @@
   <ItemGroup>
     <ClCompile Include="practicetest.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="timefunct.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
