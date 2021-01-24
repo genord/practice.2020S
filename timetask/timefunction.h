@@ -7,31 +7,31 @@ int hoursconvert(int hours)
 {
     setlocale(LC_ALL, "ukr");
     {
-        if (hours == 0)  printf("Íóëü ãîäèí");
-        if (hours == 1)  printf("Îäíà ãîäèíà");
-        if (hours == 2)  printf("Äâi ãîäèíè");
-        if (hours == 3)  printf("Òğè ãîäèíè");
-        if (hours == 4)  printf("×îòèğè ãîäèíè");
-        if (hours == 5)  printf("Ï'ÿòü ãîäèí");
-        if (hours == 6)  printf("Øiñòü ãîäèí");
-        if (hours == 7)  printf("Ñiì ãîäèí");
-        if (hours == 8)  printf("Âiñiì ãîäèí");
-        if (hours == 9)  printf("Äåâ'ÿòü ãîäèí");
-        if (hours == 10)  printf("Äåñÿòü ãîäèí");
-        if (hours == 11)  printf("Îäèíàäöÿòü ãîäèí");
-        if (hours == 12)  printf("Äâàíàäöÿòü ãîäèí");
-        if (hours == 13)  printf("Òğèíàäöÿòü ãîäèí");
-        if (hours == 14)  printf("×îòèğíàäöÿòü ãîäèí");
-        if (hours == 15)  printf("Ï'ÿòíàäöÿòü ãîäèí");
-        if (hours == 16)  printf("Øiñòíàäöÿòü ãîäèí");
-        if (hours == 17)  printf("Ñiìíàäöÿòü ãîäèí");
-        if (hours == 18)  printf("Âiñiìíàäöÿòü ãîäèí");
-        if (hours == 19)  printf("Äåâ'ÿòüíàäöÿòü ãîäèí");
-        if (hours == 20)  printf("Äâàäöÿòü ãîäèí");
-        if (hours == 21)  printf("Äâàäöÿòü îäíà ãîäèíà");
-        if (hours == 22)  printf("Äâàäöÿòü äğóãà ãîäèíà");
-        if (hours == 23)  printf("Äâàäöÿòü òğåòÿ ãîäèíà");
-        if (hours == 24)  printf("Äâàäöÿòü ÷åòâåğòà ãîäèíà");   
+        if (hours == 0) { printf("ĞÑƒĞ»ÑŒ Ğ³Ğ¾Ğ´Ğ¸Ğ½"); }
+    if (hours == 1) { printf("ĞĞ´Ğ½Ğ° Ğ³Ğ¾Ğ´Ğ¸Ğ½Ğ°"); }
+    if (hours == 2) { printf("Ğ”Ğ²i Ğ³Ğ¾Ğ´Ğ¸Ğ½Ğ¸"); }
+    if (hours == 3) { printf("Ğ¢Ñ€Ğ¸ Ğ³Ğ¾Ğ´Ğ¸Ğ½Ğ¸"); }
+    if (hours == 4) { printf("Ğ§Ğ¾Ñ‚Ğ¸Ñ€Ğ¸ Ğ³Ğ¾Ğ´Ğ¸Ğ½Ğ¸"); }
+    if (hours == 5) { printf("ĞŸ'ÑÑ‚ÑŒ Ğ³Ğ¾Ğ´Ğ¸Ğ½"); }
+    if (hours == 6) { printf("Ğ¨iÑÑ‚ÑŒ Ğ³Ğ¾Ğ´Ğ¸Ğ½"); }
+    if (hours == 7) { printf("Ğ¡iĞ¼ Ğ³Ğ¾Ğ´Ğ¸Ğ½"); }
+    if (hours == 8) { printf("Ğ’iÑiĞ¼ Ğ³Ğ¾Ğ´Ğ¸Ğ½"); }
+    if (hours == 9) { printf("Ğ”ĞµĞ²'ÑÑ‚ÑŒ Ğ³Ğ¾Ğ´Ğ¸Ğ½"); }
+    if (hours == 10) { printf("Ğ”ĞµÑÑÑ‚ÑŒ Ğ³Ğ¾Ğ´Ğ¸Ğ½"); }
+    if (hours == 11) { printf("ĞĞ´Ğ¸Ğ½Ğ°Ğ´Ñ†ÑÑ‚ÑŒ Ğ³Ğ¾Ğ´Ğ¸Ğ½"); }
+    if (hours == 12) { printf("Ğ”Ğ²Ğ°Ğ½Ğ°Ğ´Ñ†ÑÑ‚ÑŒ Ğ³Ğ¾Ğ´Ğ¸Ğ½"); }
+    if (hours == 13) { printf("Ğ¢Ñ€Ğ¸Ğ½Ğ°Ğ´Ñ†ÑÑ‚ÑŒ Ğ³Ğ¾Ğ´Ğ¸Ğ½"); }
+    if (hours == 14) { printf("Ğ§Ğ¾Ñ‚Ğ¸Ñ€Ğ½Ğ°Ğ´Ñ†ÑÑ‚ÑŒ Ğ³Ğ¾Ğ´Ğ¸Ğ½"); }
+    if (hours == 15) { printf("ĞŸ'ÑÑ‚Ğ½Ğ°Ğ´Ñ†ÑÑ‚ÑŒ Ğ³Ğ¾Ğ´Ğ¸Ğ½"); }
+    if (hours == 16) { printf("Ğ¨iÑÑ‚Ğ½Ğ°Ğ´Ñ†ÑÑ‚ÑŒ Ğ³Ğ¾Ğ´Ğ¸Ğ½"); }
+    if (hours == 17) { printf("Ğ¡iĞ¼Ğ½Ğ°Ğ´Ñ†ÑÑ‚ÑŒ Ğ³Ğ¾Ğ´Ğ¸Ğ½"); }
+    if (hours == 18) { printf("Ğ’iÑiĞ¼Ğ½Ğ°Ğ´Ñ†ÑÑ‚ÑŒ Ğ³Ğ¾Ğ´Ğ¸Ğ½"); }
+    if (hours == 19) { printf("Ğ”ĞµĞ²'ÑÑ‚ÑŒĞ½Ğ°Ğ´Ñ†ÑÑ‚ÑŒ Ğ³Ğ¾Ğ´Ğ¸Ğ½"); }
+    if (hours == 20) { printf("Ğ”Ğ²Ğ°Ğ´Ñ†ÑÑ‚ÑŒ Ğ³Ğ¾Ğ´Ğ¸Ğ½"); }
+    if (hours == 21) { printf("Ğ”Ğ²Ğ°Ğ´Ñ†ÑÑ‚ÑŒ Ğ¾Ğ´Ğ½Ğ° Ğ³Ğ¾Ğ´Ğ¸Ğ½Ğ°"); }
+    if (hours == 22) { printf("Ğ”Ğ²Ğ°Ğ´Ñ†ÑÑ‚ÑŒ Ğ´Ñ€ÑƒĞ³Ğ° Ğ³Ğ¾Ğ´Ğ¸Ğ½Ğ°"); }
+    if (hours == 23) { printf("Ğ”Ğ²Ğ°Ğ´Ñ†ÑÑ‚ÑŒ Ñ‚Ñ€ĞµÑ‚Ñ Ğ³Ğ¾Ğ´Ğ¸Ğ½Ğ°"); }
+    if (hours == 24) { printf("Ğ”Ğ²Ğ°Ğ´Ñ†ÑÑ‚ÑŒ Ñ‡ĞµÑ‚Ğ²ĞµÑ€Ñ‚Ğ° Ğ³Ğ¾Ğ´Ğ¸Ğ½Ğ°"); }
     }
     return 0;
 }
@@ -43,42 +43,42 @@ int minutesconvert(int minutes)
         
     if (minutes >= 0 || minutes <= 19) 
     {
-        if (minutes == 0)  printf(" íóëü õâèëèí");
-        if (minutes == 1)  printf(" îäíà õâèëèíà");
-        if (minutes == 2)  printf(" äâi õâèëèíè");
-        if (minutes == 3)  printf(" òğè õâèëèíè");
-        if (minutes == 4)  printf(" ÷îòèğè õâèëèíè");
-        if (minutes == 5)  printf(" ï'ÿòü õâèëèí");
-        if (minutes == 6)  printf(" øiñòü õâèëèí");
-        if (minutes == 7)  printf(" ñiì õâèëèí");
-        if (minutes == 8)  printf(" âiñiì õâèëèí");
-        if (minutes == 9)  printf(" äåâ'ÿòü õâèëèí");
-        if (minutes == 10)  printf(" äåñÿòü õâèëèí");
-        if (minutes == 11)  printf(" îäèíàäöÿòü õâèëèíà");
-        if (minutes == 12)  printf(" äâàíàäöÿòü õâèëèíè");
-        if (minutes == 13)  printf(" òğèíàäöÿòü õâèëèíè");
-        if (minutes == 14)  printf(" ÷îòèğíàäöÿòü õâèëèíè");
-        if (minutes == 15)  printf(" ï'ÿòíàäöÿòü õâèëèí");
-        if (minutes == 16)  printf(" øiñòíàäöÿòü õâèëèí");
-        if (minutes == 17)  printf(" ñiìíàäöÿòü õâèëèí");
-        if (minutes == 18)  printf(" âiñiìíàäöÿòü õâèëèí");
-        if (minutes == 19)  printf(" äåâ'ÿòíàäöÿòü õâèëèí");
+        if (minutes == 0) { printf("ĞÑƒĞ»ÑŒ Ñ…Ğ²Ğ¸Ğ»Ğ¸Ğ½"); }
+        if (minutes == 1) { printf("ĞĞ´Ğ½Ğ° Ñ…Ğ²Ğ¸Ğ»Ğ¸Ğ½Ğ°"); }
+        if (minutes == 2) { printf("Ğ”Ğ²i Ñ…Ğ²Ğ¸Ğ»Ğ¸Ğ½Ğ¸"); }
+        if (minutes == 3) { printf("Ğ¢Ñ€Ğ¸ Ñ…Ğ²Ğ¸Ğ»Ğ¸Ğ½Ğ¸"); }
+        if (minutes == 4) { printf("Ğ§Ğ¾Ñ‚Ğ¸Ñ€Ğ¸ Ñ…Ğ²Ğ¸Ğ»Ğ¸Ğ½Ğ¸"); }
+        if (minutes == 5) { printf("ĞŸ'ÑÑ‚ÑŒ Ñ…Ğ²Ğ¸Ğ»Ğ¸Ğ½"); }
+        if (minutes == 6) { printf("Ğ¨iÑÑ‚ÑŒ Ñ…Ğ²Ğ¸Ğ»Ğ¸Ğ½"); }
+        if (minutes == 7) { printf("Ğ¡iĞ¼ Ñ…Ğ²Ğ¸Ğ»Ğ¸Ğ½"); }
+        if (minutes == 8) { printf("Ğ’iÑiĞ¼ Ñ…Ğ²Ğ¸Ğ»Ğ¸Ğ½"); }
+        if (minutes == 9) { printf("Ğ”ĞµĞ²'ÑÑ‚ÑŒ Ñ…Ğ²Ğ¸Ğ»Ğ¸Ğ½"); }
+        if (minutes == 10) { printf("Ğ”ĞµÑÑÑ‚ÑŒ Ñ…Ğ²Ğ¸Ğ»Ğ¸Ğ½"); }
+        if (minutes == 11) { printf("ĞĞ´Ğ¸Ğ½Ğ°Ğ´Ñ†ÑÑ‚ÑŒ Ñ…Ğ²Ğ¸Ğ»Ğ¸Ğ½Ğ°"); }
+        if (minutes == 12) { printf("Ğ”Ğ²Ğ°Ğ½Ğ°Ğ´Ñ†ÑÑ‚ÑŒ Ñ…Ğ²Ğ¸Ğ»Ğ¸Ğ½Ğ¸"); }
+        if (minutes == 13) { printf("Ğ¢Ñ€Ğ¸Ğ½Ğ°Ğ´Ñ†ÑÑ‚ÑŒ Ñ…Ğ²Ğ¸Ğ»Ğ¸Ğ½Ğ¸"); }
+        if (minutes == 14) { printf("Ğ§Ğ¾Ñ‚Ğ¸Ñ€Ğ½Ğ°Ğ´Ñ†ÑÑ‚ÑŒ Ñ…Ğ²Ğ¸Ğ»Ğ¸Ğ½Ğ¸"); }
+        if (minutes == 15) { printf("ĞŸ'ÑÑ‚Ğ½Ğ°Ğ´Ñ†ÑÑ‚ÑŒ Ñ…Ğ²Ğ¸Ğ»Ğ¸Ğ½"); }
+        if (minutes == 16) { printf("Ğ¨iÑÑ‚Ğ½Ğ°Ğ´Ñ†ÑÑ‚ÑŒ Ñ…Ğ²Ğ¸Ğ»Ğ¸Ğ½"); }
+        if (minutes == 17) { printf("Ğ¡iĞ¼Ğ½Ğ°Ğ´Ñ†ÑÑ‚ÑŒ Ñ…Ğ²Ğ¸Ğ»Ğ¸Ğ½"); }
+        if (minutes == 18) { printf("Ğ’iÑiĞ¼Ğ½Ğ°Ğ´Ñ†ÑÑ‚ÑŒ Ñ…Ğ²Ğ¸Ğ»Ğ¸Ğ½"); }
+        if (minutes == 19) { printf("Ğ”ĞµĞ²'ÑÑ‚Ğ½Ğ°Ğ´Ñ†ÑÑ‚ÑŒ Ñ…Ğ²Ğ¸Ğ»Ğ¸Ğ½"); }
     }
     else if (minutes >= 20 || minutes <= 60)
     {
-        if (A3 == 2)  printf(" äâàäöÿòü");
-        if (A3 == 3)  printf(" òğèäöÿòü");
-        if (A3 == 4)  printf(" ñîğîê");
-        if (A3 == 5)  printf(" ï'ÿòäåñÿò");
-        if (A4 == 1)  printf(" îäíà õâèëèíà");
-        if (A4 == 2)  printf(" äâi õâèëèíè");
-        if (A4 == 3)  printf(" òğè õâèëèíè");
-        if (A4 == 4)  printf(" ÷îòèğè õâèëèíè");
-        if (A4 == 5)  printf(" ï'ÿòü õâèëèí");
-        if (A4 == 6)  printf(" øiñòü õâèëèí");
-        if (A4 == 7)  printf(" ñiì õâèëèí");
-        if (A4 == 8)  printf(" âiñiì õâèëèí");
-        if (A4 == 9)  printf(" äåâ'ÿòü õâèëèí");
+        if (A3 == 2) { printf("Ğ”Ğ²Ğ°Ğ´Ñ†ÑÑ‚ÑŒ"); }
+        if (A3 == 3) { printf("Ğ¢Ñ€Ğ¸Ğ´Ñ†ÑÑ‚ÑŒ"); }
+        if (A3 == 4) { printf("Ğ¡Ğ¾Ñ€Ğ¾Ğº"); }
+        if (A3 == 5) { printf("ĞŸ'ÑÑ‚Ğ´ĞµÑÑÑ‚"); }
+        if (A4 == 1) { printf("Ğ¾Ğ´Ğ½Ğ° Ñ…Ğ²Ğ¸Ğ»Ğ¸Ğ½Ğ°"); }
+        if (A4 == 2) { printf("Ğ´Ğ²i Ñ…Ğ²Ğ¸Ğ»Ğ¸Ğ½Ğ¸"); }
+        if (A4 == 3) { printf("Ñ‚Ñ€Ğ¸ Ñ…Ğ²Ğ¸Ğ»Ğ¸Ğ½Ğ¸"); }
+        if (A4 == 4) { printf("Ñ‡Ğ¾Ñ‚Ğ¸Ñ€Ğ¸ Ñ…Ğ²Ğ¸Ğ»Ğ¸Ğ½Ğ¸"); }
+        if (A4 == 5) { printf("Ğ¿'ÑÑ‚ÑŒ Ñ…Ğ²Ğ¸Ğ»Ğ¸Ğ½"); }
+        if (A4 == 6) { printf("ÑˆiÑÑ‚ÑŒ Ñ…Ğ²Ğ¸Ğ»Ğ¸Ğ½"); }
+        if (A4 == 7) { printf("ÑiĞ¼ Ñ…Ğ²Ğ¸Ğ»Ğ¸Ğ½"); }
+        if (A4 == 8) { printf("Ğ²iÑiĞ¼ Ñ…Ğ²Ğ¸Ğ»Ğ¸Ğ½"); }
+        if (A4 == 9) { printf("Ğ´ĞµĞ²'ÑÑ‚ÑŒ Ñ…Ğ²Ğ¸Ğ»Ğ¸Ğ½"); }
     }
     else 
     {
